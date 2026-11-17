@@ -1,10 +1,28 @@
 
-# Fluorescence spectroscopy: Thermal denaturation of membrane protein
-Tryptophan fluorescence emission spectra were analyzed to determine melting temperature, which is a thermal stability indicator.
-- Fluorescence signals were corrected for temperature-dependence
-- The  initial and final state fluorescence signals were determined
-- The unfolded fraction was calculated
-- Plotted against absolute temperature and fitted using a nonlinear fitted
+# Thermal unfolding analysis of membrane proteins
+
+Python-based analysis of tryptophan fluorescence data from thermal denaturation experiments.
+
+The workflow:
+
+- Corrects fluorescence signals for temperature dependence.
+- Estimates the initial and final fluorescence states.
+- Calculates the fraction of unfolded protein.
+- Fits the thermal transition to determine the melting temperature (Tm).
+
+The analysis is particularly relevant to detergent-solubilised membrane proteins, where temperature-dependent fluorescence changes need to be considered when interpreting unfolding data.
+
+## Requirements
+
+Python, Jupyter Notebook, NumPy, Pandas, SciPy, Matplotlib and scikit-learn.
+
+## Usage
+
+Clone the repository and run `uday_data_processing.ipynb` in Jupyter Notebook.
+
+## Author
+
+Udaya Kumar Tiruttani Subhramanyam
 
 
 
